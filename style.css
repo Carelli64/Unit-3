@@ -198,3 +198,29 @@ footer {
 option {
     font-size: 20px;
 }
+
+@media (min-width: 768px) {
+    input[type="text"], input[type="email"], input[type="tel"], select[name="user-state"] {
+        width: 75%;
+    }
+
+    input[type="zip"] {
+        width: 25%;
+    }
+
+    label[for="zip"] {
+        display: inline;
+    }
+
+    .top-zip {
+        padding-top: 15px;
+        justify-content: flex-start;
+    }
+
+    
+
+    .top {
+        display: flex;
+        justify-content: space-between;
+    }
+}
