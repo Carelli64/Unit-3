@@ -7,6 +7,7 @@
 
 html {
     font-size: 18px;
+    width: 100%;
 }
 
 html, body {
@@ -35,7 +36,7 @@ html, body {
 }
 
 .top-info {
-    border-bottom: solid black 8px;
+    /* border-bottom: solid black 8px; */
     width: 91.75vw;
     margin: 0 auto;
     display: block;
@@ -93,10 +94,17 @@ fieldset {
     border: 0;
 }
 
-legend {
+#contact {
+    border-top: double black 8px;
+}
+
+#news {
+    border-top: solid black 4px;
+}
+
+#contact, #news {
     font-weight: bold;
     font-size: 20px;
-    border-top: solid black 4px;
     padding-top: 10px;
 }
 
