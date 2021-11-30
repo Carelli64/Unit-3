@@ -189,3 +189,7 @@ footer {
     margin-bottom: 20px;
     margin-top: 10px;
 }
+
+option {
+    font-size: 20px;
+}
