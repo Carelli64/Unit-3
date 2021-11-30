@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+}
+
+
+
+html {
+    font-size: 18px;
+}
+
+html, body {
+    margin: 0px;
+}
+
+.header {
+    background:  rgb(39, 33, 33);
+    padding: 20px;
+}
+
+#top {
+    text-transform: uppercase;
+    text-align: center;
+    background: rgb(39, 33, 33);
+    color: white;
+}
+
+.top {
+    padding-top: 15px;
+}
+
+#title {
+    text-align: center;
+    margin: 1rem;
+}
+
+.top-info {
+    border-bottom: solid black 8px;
+    width: 91.75vw;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    border: 0;
+}
+
+header {
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    
+}
+
+h2 {
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 6px;
+}
+.top-info {
+    text-align: center;
+}
+
+label {
+    padding-top: 1rem;
+}
+
+input, textarea, select{
+    text-decoration: none;
+    width: 100%;
+    margin: 5px 0;
+    padding: 12px;
+    font-size: 18px;
+    background-color: rgba(189, 189, 189, 0.685);
+    border: none;
+    border-radius: 5px;
+}
+
+
+::placeholder {
+    text-align: right;
+    font-size: 12px;
+}
+
+fieldset {
+    border: 0;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 20px;
+    border-top: solid black 4px;
+    padding-top: 10px;
+}
+
+select {
+    width: 100%;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+select:focus, textarea:focus, button:focus, input[type]:focus {
+    outline: 4px solid blue;
+}
+
+option {
+    font-size: 12px;
+}
+
+button {
+    width: 100%;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 10px;
+    color: rgb(136, 128, 128);
+    font-size: 30px;
+}
+
+#user-zip {
+    width: 50%;
+}
+
+input[type="checkbox"] {
+    align-items: left;
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+    width: 100%;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    margin: 0;
+    vertical-align: bottom;
+    position: relative;
+    top: -1px;
+}
+
+.check {
+    display: block;
+    padding-left: 15px;
+    text-indent: -15px;
+}
+
+.info {
+    font-size: 20px;
+}
+
+label[for="zip"] {
+    display: block;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+footer {
+    align-items: center;
+    text-align: center;
+    background: rgb(39, 33, 33);
+    padding: 20px;
+}
+
+.copy {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.644);
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
