@@ -147,6 +147,10 @@ input[type="text"], input[type="email"], input[type="tel"] {
     width: 100%;
 }
 
+input[type="zip"] {
+    width: 50%;
+}
+
 input[type="checkbox"], input[type="radio"] {
     width: 15px;
     height: 15px;
@@ -165,6 +169,7 @@ input[type="checkbox"], input[type="radio"] {
 
 .info {
     font-size: 20px;
+    padding-top: 10px;
 }
 
 label[for="zip"] {
