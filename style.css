@@ -96,10 +96,12 @@ fieldset {
 
 #contact {
     border-top: double black 8px;
+    width: 100%;
 }
 
 #news {
     border-top: solid black 4px;
+    width: 100%;
 }
 
 #contact, #news {
@@ -143,10 +145,6 @@ button {
     width: 50%;
 }
 
-input[type="checkbox"] {
-    align-items: left;
-}
-
 input[type="text"], input[type="email"], input[type="tel"] {
     width: 100%;
 }
@@ -169,6 +167,7 @@ input[type="checkbox"], input[type="radio"] {
     display: block;
     padding-left: 15px;
     text-indent: -15px;
+    padding-bottom: 10px;
 }
 
 .info {
@@ -207,6 +206,9 @@ option {
     background-color: blanchedalmond;
 }
 
+.topics {
+    margin-top: 30px;
+}
 
 @media (min-width: 768px) {
     input[type="text"], input[type="email"], input[type="tel"], select[name="user-state"] {

@@ -36,8 +36,9 @@
 
         <div class="container">
                 <form>
-                    <fieldset class="f-top">
-                        <div>
+                    
+                    <div>
+                        <fieldset class="f-top">
                             <legend id="contact">Contact Information</legend>
                             <div class="top">
                                 <label for="name" class="contact">Full Name</label>
@@ -124,15 +125,16 @@
 
                             <div class="top-zip">
                                 <label for="zip" class="contact">Zip Code</label>
-                                <input type="zip" name="user-zip" id="zip" class="input-box" placeholder="12345">
+                                <input type="text" name="user-zip" id="zip" class="input-box">
                             </div>
+                        </fieldset> 
+                    </div>
+                     
 
-                        </div>
-                    </fieldset>  
+                   
 
-                    <fieldset class="f-bottom">
-
-                        <div>
+                    <div>
+                        <fieldset class="f-bottom">
                             <legend id="news">Newsletter</legend>
                             <p class="info">Select the newsletters you would like to recieve</p>
 
@@ -157,15 +159,17 @@
                             <label class="check">
                                 <input type="radio" id="format2" name="format" value="plain" /> Plain Text
                             </label>
-                        </div>
 
-                        <div>
-                            <label class="info"> <p> Other topics you'd like to hear about</p></label>
+                    
+
+                       
+                            <label class="topics"> Other topics you'd like to hear about</label>
                             <textarea name="topics" id="topics" style="margin: 5px 0px; width: 100%; height: 151px;"></textarea>
                             <button type="submit" style="margin: 5px 0px; width: 100%; height: 100px;">Sign Up</button>
-                        </div>
+                        </fieldset>
+                    </div>
 
-                    </fieldset>
+                    
                 </form>
         </div>
     </main>
