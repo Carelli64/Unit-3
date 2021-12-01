@@ -119,6 +119,10 @@ select:focus, textarea:focus, button:focus, input[type]:focus {
     outline: 4px solid blue;
 }
 
+:focus:hover {
+    background-color: aquamarine;
+}
+
 option {
     font-size: 12px;
 }
@@ -199,6 +203,11 @@ option {
     font-size: 20px;
 }
 
+.f-bottom {
+    background-color: blanchedalmond;
+}
+
+
 @media (min-width: 768px) {
     input[type="text"], input[type="email"], input[type="tel"], select[name="user-state"] {
         width: 75%;
@@ -212,15 +221,18 @@ option {
         display: inline;
     }
 
+    .top,
     .top-zip {
-        padding-top: 15px;
-        justify-content: flex-start;
+    padding-top: 15px;
+    display: flex;
     }
 
-    
+    .top label,
+    .top-zip label {
+    flex-basis: 25%;
+    }
 
-    .top {
-        display: flex;
-        justify-content: space-between;
+    .top input{
+    flex-basis: 75%;
     }
 }
