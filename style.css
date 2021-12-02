@@ -210,6 +210,18 @@ option {
     margin-top: 30px;
 }
 
+.top-zip input {
+    max-width: 50%;
+}
+
+input {
+    transition: height 2s;
+}
+
+input:hover {
+    height: 80px;
+}
+
 @media (min-width: 768px) {
     input[type="text"], input[type="email"], input[type="tel"], select[name="user-state"] {
         width: 75%;
@@ -236,5 +248,9 @@ option {
 
     .top input{
     flex-basis: 75%;
+    }
+
+    .top-zip input {
+        max-width: 25%;
     }
 }
